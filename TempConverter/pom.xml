@@ -1,7 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <groupId>com.ddservices.app</groupId>
+    <artifactId>DSServices</artifactId>
+    <version>3.0.0</version>
+    <relativePath>../services/pom.xml</relativePath>
+  </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>DSServices</groupId>
-  <artifactId>DSServices</artifactId>
+  <artifactId>TempConvertion</artifactId>
+  <groupId>com.ddservices.app</groupId>
   <version>3.0.0</version>
   <packaging>war</packaging>
   <build>
