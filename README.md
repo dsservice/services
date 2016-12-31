@@ -1,2 +1,2 @@
-# services
+# Restful JAX-RS services
 REST SERVICES
